@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <navbar class="navbar">
+            <div class="logo">Rifat</div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </navbar>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Hi, I'm Rifat 👋</h2>
+                <p>I'm Learning Frontend Development with HTML, CSS & JavaScript</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I'm passionate about coding and i love learning new Technologies like React!</p>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="card">    
+                    <h3>Projecte 1</h3>
+                    <p>A simple HTML & CSS landing page.</p>
+                </div>
+                <div class="card">    
+                    <h3>Projecte 2</h3>
+                    <p>A resturant menu layout using flexbox.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit" class="contact-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="4" placeholder="Type Here.."></textarea>
+
+                <input type="submit" value="Send Message">
+
+
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rifat Rahman Bandhan. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
